@@ -14,7 +14,7 @@
 ## Background
 In Singapore's dynamic housing market, the resale prices of public housing flats (HDB flats) are influenced by a myriad of factors including flat characteristics, nearby amenities, socio-economic variables and more. Accurate prediction of HDB flat resale prices is of significant importance to buyers, sellers, and policy-makers alike, for informed decision-making and planning.
 
-Abstracting a dataset comprising a variety of features such as transaction year, town, flat type, block number, street name, storey range, floor area, flat model, lease commence date, and other socio-economic and locational variables, the task aims to ease the real estate decision making process through designing and deploying a predictive model that accurately predict the resale price of HDB flat
+Abstracting a dataset comprising a variety of features such as transaction year, town, flat type, block number, street name, storey range, floor area, flat model, lease commence date, and other socio-economic and locational variables, the task aims to ease the real estate decision making process through designing and deploying a predictive model that accurately predict the resale price of HDB flat.
 
 <br>
 
@@ -43,7 +43,16 @@ We are a real estate start-up company in Singapore and we are addressing to a ho
 * [`pri_sch_popularity.csv`](../datasets/pri_sch_popularity.csv): [Primary School Popularity dataset](https://schlah.com/primary-schools) contains schools ranked based on Popularity in Primary 1 (P1) Registration.
 
 <br>
+
+### Brief Description of Our Data Exploration
+Upon studying the datasets, we found out that these are the most important 10 factors that affects the housing price are given as below. Starting from the most important factor, we have floor area per square feet, max floor level and lease commence date.
+ 
+![SHAP Importance of Variables](https://github.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/blob/main/SHAP%20Importance%20of%20Values.png?raw=true)
 <br>
+
+We went further and engineered some additional features to assist us in building the most accurate model and summarised in the data dictionary below.
+<br>
+
 
 ## Data Dictionary
 The data dictionary for the columns found in train.csv can be found at this [kaggle link](https://www.kaggle.com/competitions/dsi-sg-project-2-regression-challenge-hdb-price/data).
@@ -56,8 +65,9 @@ Additionally we have added the following features:
 | pop_ranking_2cat | int | na | Primary School ranking split into 2 tiers - top 8 schools are Cat 1 and the reamaining are Cat 2 |
 | postal_sector | object | na | First 2 characters of the 'postal' column is its [postal sector](https://www.mingproperty.sg/singapore-district-code/) | 
 | housing_region | object | na | Housing regions of Core Central Region (CCR), Rest of Central Region (RCR), and Outside Central Region (OCR), [as defined by the Urban Redevelopment Authority](https://www.redbrick.sg/blog/singapore-districts-and-regions/), were assigned to each flat based on its postal sector. | 
-
 ---
+
+<br>
 <br>
 
 ## Summary of Feature Selection from Each Model
