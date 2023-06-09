@@ -18,6 +18,10 @@ Abstracting a dataset comprising a variety of features such as transaction year,
 
 <br>
 
+![PPI from URA 1990 to 2019](https://github.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/blob/main/housing_price_index_2019.png?raw=true)
+
+
+
 ## Problem Statement
 We are a real estate start-up company in Singapore and we are addressing to a house buyer/seller.
 
