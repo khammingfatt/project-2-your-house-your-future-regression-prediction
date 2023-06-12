@@ -1,5 +1,9 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Singapore Housing Data
 
+### **Try Out our Housing Price Predictor Streamlit App by clicking the link below.**
+### [HDB Resale Price Predictor Application with 11 Most Important Factors](https://project-2streamlit-application-house-price-predictionr-n4fym7.streamlit.app/)
+![Streamlit App](https://raw.githubusercontent.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/main/Streamlit%20Application.png)
+
 <br>
 
 ## Content Directory:
@@ -10,6 +14,9 @@
 - [Modeling](#Modeling)
 - [Kaggle Submission](#Kaggle-Submission)
 - [Key Insights & Recommendations](#Key-Insights-&-Recommendations)
+
+<br>
+
 
 ## Background
 In Singapore's dynamic housing market, the resale prices of public housing flats (HDB flats) are influenced by a myriad of factors including flat characteristics, nearby amenities, socio-economic variables and more. Accurate prediction of HDB flat resale prices is of significant importance to buyers, sellers, and policy-makers alike, for informed decision-making and planning.
@@ -100,7 +107,16 @@ We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Mo
 <br>
 <br>
 
-## Key Takeaways
+## Kaggle Submission
+Our best model has attained a ~48,000 RMSE with our prediction.
+![kaggle](https://raw.githubusercontent.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/main/Kaggle%20Submission.jpeg)
+
+<br>
+
+---
+
+
+## Key Insights
 The following features were found to have the greatest impact on the model we have built:
 
 * Town
@@ -128,7 +144,6 @@ The following features were found to have the greatest impact on the model we ha
 	* Match your property’s unique selling points to the right buyers
 
 ---
-
 ## Reference
 (1) The impact of cooling measures: How HDB resale prices have changed in every Singapore town <br>
 https://www.channelnewsasia.com/singapore/cooling-measures-singapore-hdb-resale-prices-towns-property-map-3499961#:~:text=Analysts%20expect%20a%20one%2Ddigit,12.7%20per%20cent%20in%202021.
